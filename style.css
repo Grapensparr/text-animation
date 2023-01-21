@@ -193,57 +193,47 @@ body {
   }
 }
 @-webkit-keyframes bounceRight {
-  0%, 50%, 100% {
+  0% {
     transform: translateX(0);
   }
-  25% {
-    transform: translateX(53px);
+  50% {
+    transform: translateX(55px);
+  }
+  100% {
+    transform: translateX(0);
   }
 }
 @keyframes bounceRight {
-  0%, 50%, 100% {
+  0% {
     transform: translateX(0);
   }
-  25% {
-    transform: translateX(53px);
+  50% {
+    transform: translateX(55px);
+  }
+  100% {
+    transform: translateX(0);
   }
 }
 @-webkit-keyframes bounceLeft {
-  0%, 50%, 100% {
+  0% {
     transform: translateX(0);
   }
-  25% {
-    transform: translateX(-52px);
+  50% {
+    transform: translateX(-55px);
+  }
+  100% {
+    transform: translateX(0);
   }
 }
 @keyframes bounceLeft {
-  0%, 50%, 100% {
+  0% {
     transform: translateX(0);
   }
-  25% {
-    transform: translateX(-52px);
+  50% {
+    transform: translateX(-55px);
   }
-}
-@-webkit-keyframes bounceUp {
-  0%, 50%, 100% {
-    transform: translateY(0);
-  }
-  25% {
-    transform: translateY(-100px);
-  }
-  75% {
-    transform: translateY(100px);
-  }
-}
-@keyframes bounceUp {
-  0%, 50%, 100% {
-    transform: translateY(0);
-  }
-  25% {
-    transform: translateY(-100px);
-  }
-  75% {
-    transform: translateY(100px);
+  100% {
+    transform: translateX(0);
   }
 }
 @-webkit-keyframes vibrate {
