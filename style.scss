@@ -32,13 +32,13 @@ body {
     path:nth-child(3) {
         stroke-dasharray: 628px;
         stroke-dashoffset: 628px;
-        animation: line-anim 2s ease forwards 0.4s, fill-darkcyan 0.5s ease forwards 2.1s, bounceRight 1s infinite ease forwards 2.3s;
+        animation: line-anim 2s ease forwards 0.4s, fill-darkcyan 0.5s ease forwards 2.1s, bounceRight 0.5s infinite ease forwards 2.3s;
     }
 
     path:nth-child(4) {
         stroke-dasharray: 628px;
         stroke-dashoffset: 628px;
-        animation: line-anim 2s ease forwards 0.6s, fill-darkcyan 0.5s ease forwards 2.1s, bounceLeft 1s infinite ease forwards 2.3s;
+        animation: line-anim 2s ease forwards 0.6s, fill-darkcyan 0.5s ease forwards 2.1s, bounceLeft 0.5s infinite ease forwards 2.3s;
     }
 
     path:nth-child(5) {
@@ -50,7 +50,7 @@ body {
     path:nth-child(6) {
         stroke-dasharray: 508px;
         stroke-dashoffset: 508px;
-        animation: line-anim 2s ease forwards 1s, fill-black 0.5s ease forwards 2.1s, bounceUp 1s infinite ease forwards 2.3s;
+        animation: line-anim 2s ease forwards 1s, fill-black 0.5s ease forwards 2.1s, bounceUp 0.5s infinite ease forwards 2.3s;
     }
 
     @keyframes line-anim{
@@ -92,10 +92,10 @@ body {
         0%,
         50%,
         100% {
-            transform: translateY(0);
+            transform: translateY(40);
         }
         25% {
-            transform: translateY(-20px);
+            transform: translateY(-40px);
         }
     }
     @keyframes bounceRight {
